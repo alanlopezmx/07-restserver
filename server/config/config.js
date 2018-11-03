@@ -37,3 +37,10 @@ if (process.env.NODE_ENV === 'dev') {
 }
 
 process.env.URLDB = urlDB;
+
+
+// =====================
+// Semilla de autenticación
+// =====================
+
+process.env.CLIENT_ID = process.env.CLIENT_ID || '575884105364-3vbcs9vk3i5qqpfkbvmvcc2fs0hmarej.apps.googleusercontent.com';
